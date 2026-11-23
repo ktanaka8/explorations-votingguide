@@ -46,13 +46,3 @@ def state_abbr(filename):
         state_abbr[state] = abbr
     return state_abbr
 
-def main():
-    senators_states_list = senators_states("senators_states.csv")
-    hr_statedist_list = house_state_district("hr_statedistrict.csv")
-    zip_district_list = zip_district("zip_district.csv")
-    state_abbr_list = state_abbr("state_abbr.csv")
-    
-if __name__ == "__main__":
-    main()
-    
-
